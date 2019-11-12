@@ -9,15 +9,23 @@ namespace ASP_HelloWorld
 {
     public partial class Default : System.Web.UI.Page
     {
+        private void Page_Init(object sender, System.EventArgs e)
+        {
+            Response.Write("</br>เกิดเหตุการณ์ Page_Init()");
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             // Response.Write("Hello ASP.NET 4.6");
-            for (int i = 1; i <= 5; i++)
-            {
-                Response.Write("<font size =" + i + ">" + "Hello World ASP.NET 4.6</font><br />");
-            }
+            Response.Write("</br>เกิดเหตุการณ์ Page_Load()");
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Response.Write("<font size =" + i + ">" + "Hello World ASP.NET 4.6</font><br />");
+            //}
         }
-
+        private void Page_PreRender(object sender, System.EventArgs e)
+        {
+            Response.Write("</br > เกิดเหตุการณ์ Page_PreRender()");
+        }
         protected void Button1_Click(object sender, EventArgs e)
         {
             Response.Write(TextBox1.Text);
