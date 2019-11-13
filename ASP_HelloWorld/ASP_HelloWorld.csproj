@@ -67,11 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cookies.aspx" />
+    <Content Include="CookiesKey.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web_IsPostBack.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cookies.aspx.cs">
+      <DependentUpon>Cookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookies.aspx.designer.cs">
+      <DependentUpon>Cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CookiesKey.aspx.cs">
+      <DependentUpon>CookiesKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookiesKey.aspx.designer.cs">
+      <DependentUpon>CookiesKey.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,6 +105,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -16,6 +16,15 @@
         <p>
             <asp:Button ID="Button1" runat="server" Text="Button" />
         </p>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <p>
+            <asp:ListBox ID="ListBox1" runat="server" AutoPostBack="True" Height="169px" Width="154px">
+                <asp:ListItem>11111</asp:ListItem>
+                <asp:ListItem>222222</asp:ListItem>
+                <asp:ListItem>33333</asp:ListItem>
+                <asp:ListItem>4444</asp:ListItem>
+            </asp:ListBox>
+        </p>
     </form>
 </body>
 </html>

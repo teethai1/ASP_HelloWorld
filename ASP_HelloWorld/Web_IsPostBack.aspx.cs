@@ -14,6 +14,8 @@ namespace ASP_HelloWorld
             if (Page.IsPostBack)
             {
                 Response.Write(TextBox1.Text);
+
+                Label1.Text = ListBox1.SelectedItem.Text;
             }
 
     }
