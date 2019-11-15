@@ -71,7 +71,14 @@
     <Content Include="CookiesKey.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="HelloGuest.aspx" />
-    <Content Include="JavaScript.aspx" />
+    <Content Include="Java\ConfirmForm.aspx" />
+    <Content Include="Java\ElementsControl.aspx" />
+    <Content Include="Java\HelloWorld_Java.js" />
+    <Content Include="Java\Including.aspx" />
+    <Content Include="Java\JavaScript.aspx" />
+    <Content Include="Java\Java_Condition_Loop.aspx" />
+    <Content Include="Java\java_function.aspx" />
+    <Content Include="Java\Java_Table.aspx" />
     <Content Include="Session.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web_IsPostBack.aspx" />
@@ -105,12 +112,54 @@
     <Compile Include="HelloGuest.aspx.designer.cs">
       <DependentUpon>HelloGuest.aspx</DependentUpon>
     </Compile>
-    <Compile Include="JavaScript.aspx.cs">
+    <Compile Include="Java\ConfirmForm.aspx.cs">
+      <DependentUpon>ConfirmForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\ConfirmForm.aspx.designer.cs">
+      <DependentUpon>ConfirmForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\ElementsControl.aspx.cs">
+      <DependentUpon>ElementsControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\ElementsControl.aspx.designer.cs">
+      <DependentUpon>ElementsControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\Including.aspx.cs">
+      <DependentUpon>Including.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\Including.aspx.designer.cs">
+      <DependentUpon>Including.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\JavaScript.aspx.cs">
       <DependentUpon>JavaScript.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JavaScript.aspx.designer.cs">
+    <Compile Include="Java\JavaScript.aspx.designer.cs">
       <DependentUpon>JavaScript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\Java_Condition_Loop.aspx.cs">
+      <DependentUpon>Java_Condition_Loop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\Java_Condition_Loop.aspx.designer.cs">
+      <DependentUpon>Java_Condition_Loop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\java_function.aspx.cs">
+      <DependentUpon>java_function.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\java_function.aspx.designer.cs">
+      <DependentUpon>java_function.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Java\Java_Table.aspx.cs">
+      <DependentUpon>Java_Table.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Java\Java_Table.aspx.designer.cs">
+      <DependentUpon>Java_Table.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Session.aspx.cs">

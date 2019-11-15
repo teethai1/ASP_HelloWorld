@@ -10,10 +10,19 @@
     <form id="form1" runat="server">
         <div>
             <script lang ="javascript" type="text/javascript">
-                document.write("Hello world javascript")
+                document.write("Hello world javascript<br>TT")
             </script>
         </div>
         <input id="Button1" type="button" value="Click Me" onclick="JavaScript: alert('Hello World');" />
     </form>
+
+    <div>
+        <script>
+            var i = 3.14
+            var j = "HelloTee"
+            document.write(i + "<br>")
+            document.write(j)
+        </script>
+    </div>
 </body>
 </html>
