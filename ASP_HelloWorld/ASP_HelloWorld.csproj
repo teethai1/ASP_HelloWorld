@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BootstrapTest.aspx" />
     <Content Include="Cookies.aspx" />
     <Content Include="CookiesKey.aspx" />
+    <Content Include="CssTest.aspx" />
+    <Content Include="css\Default.css" />
     <Content Include="Default.aspx" />
     <Content Include="HelloGuest.aspx" />
     <Content Include="Java\ConfirmForm.aspx" />
@@ -84,6 +87,13 @@
     <Content Include="Web_IsPostBack.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootstrapTest.aspx.cs">
+      <DependentUpon>BootstrapTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootstrapTest.aspx.designer.cs">
+      <DependentUpon>BootstrapTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Cookies.aspx.cs">
       <DependentUpon>Cookies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,6 +107,13 @@
     </Compile>
     <Compile Include="CookiesKey.aspx.designer.cs">
       <DependentUpon>CookiesKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CssTest.aspx.cs">
+      <DependentUpon>CssTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CssTest.aspx.designer.cs">
+      <DependentUpon>CssTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -187,6 +204,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
